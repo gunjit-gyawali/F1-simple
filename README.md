@@ -8,7 +8,7 @@ A simple website about Formula 1 built with HTML, CSS, and JavaScript.
 - All 22 F1 2026 drivers with photos
 
 ## How to Run
-click ....
+click https://gunjit-f1.netlify.app/
 
 ## Built With
 - HTML
