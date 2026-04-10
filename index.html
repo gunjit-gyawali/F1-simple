@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formula 1</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
     <h1 class="heading">Formula 1 (F1)</h1>
     <div class="intro">
-        <img src="images/main-car.png" alt="f1 car" class="maincar">
+        <img src="/images/main-car.png" alt="f1 car" class="maincar">
         <p class="main-intro">Formula One (F1) is the top level of car racing where the 
             fastest, most advanced cars compete on tracks all over the world. Drivers race 
             for teams and try to score points in each race to win the championship by the 
@@ -20,16 +20,30 @@
              sometimes unpredictable, so it's really fun to watch.</p>
     </div> 
     <hr>
+    <div class="fact-box">
+    <h2>Fun Fact</h2>
+    <p id="fact-text"></p>
+    <button onclick="showFact()">New Fact</button>
+</div>
+
+    <hr>
     <div class="teams">
         <h2>There are currently 11 teams in F1.</h2>
         <p class="team">Click the button below to see all teams.</p>
         <a href="404.html"><button>Click Me</button></a>
     </div>
     <hr>
+    
     <div class="drivers">
         <h2>There are currently 22 drivers.</h2>
         <p class="driver">Click the button below to see all drivers.</p>
         <a href="drivers.html"><button>Click Me</button></a>
+    </div>
+    <hr>
+    <div class="calenders">
+        <h2>There are 22 races in F1 2026 season.</h2>
+        <p class="calender">Click the button below to see 2026 F1 calender.</p>
+        <a href="https://www.formula1.com/en/racing/2026" target="_blank"><button>Click Me</button></a>
     </div>
     <hr>
     <div class="quiz">
@@ -45,6 +59,11 @@
         <hr>
         <h2>How many times has Lewis Hamilton won the world championship?</h2>
         <input type="number" id="lewis"><button onclick="lewis()">Check Answer</button>
+    </div>
+
+    <div class="foter">
+        <p class="foter-text">Made by Gunjit Gyawali</p>
+        <p class="foter-text">Follow latest news of F1 at <a href="https://www.formula1.com/" class="foter-link-a" target="_blank">formula1.com</a></p>
     </div>
     
     <script src="script.js"></script>

@@ -1,3 +1,21 @@
+function showFact(){
+    const facts = [
+        "F1 cars can accelerate from 0 to 100 mph and back to 0 in under 5 seconds!",
+        "An F1 steering wheel can cost up to $50,000.",
+        "F1 cars generate so much downforce they could drive upside down on a tunnel ceiling.",
+        "A pit stop can be completed in under 2 seconds.",
+        "F1 drivers can lose up to 3kg in weight during a single race from sweating.",
+        "The Monaco Grand Prix has been held since 1929.",
+        "F1 engines rev up to 15,000 RPM.",
+        "There are around 80,000 components in an F1 car."
+    ];
+
+    let index = Math.floor(Math.random() * facts.length); 
+    document.getElementById("fact-text").textContent = facts[index];
+    }
+
+showFact();
+
 function teams(){
     let team = document.getElementById("team").value;
     if ( team == 11){
